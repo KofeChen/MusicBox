@@ -1,11 +1,16 @@
 [{
-    "src": "华晨宇-差不多先生.mp3",
+    "src": "/music/华晨宇-差不多先生.mp3",
     "title": "差不多先生",
     "singer": "华晨宇",
-    "img": "华晨宇.jpg"
+    "img": "/img/华晨宇.jpg"
 },{
-    "src": "Ryan.B - 再也没有.mp3",
+    "src": "/music/汪峰-再也没有.mp3",
     "title": "再也没有",
-    "singer": "Ryan.B",
-    "img": "随便一张.jpg"
+    "singer": "汪峰",
+    "img": "/img/汪峰.jpg"
+},{
+    "src": "/music/买辣椒也用券-起风了.mp3",
+    "title": "起风了",
+    "singer": "买辣椒也用券",
+    "img": "/img/起风了.jpg"
 }]
