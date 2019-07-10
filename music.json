@@ -2,15 +2,15 @@
     "src": "/music/华晨宇-差不多先生.mp3",
     "title": "差不多先生",
     "singer": "华晨宇",
-    "img": "/img/华晨宇.jpg"
+    "img": "/MusicBox/img/华晨宇.jpg"
 },{
     "src": "/music/汪峰-再也没有.mp3",
     "title": "再也没有",
     "singer": "汪峰",
-    "img": "/img/汪峰.jpg"
+    "img": "/MusicBox/img/汪峰.jpg"
 },{
     "src": "/music/买辣椒也用券-起风了.mp3",
     "title": "起风了",
     "singer": "买辣椒也用券",
-    "img": "/img/起风了.jpg"
+    "img": "/MusicBox/img/起风了.jpg"
 }]
