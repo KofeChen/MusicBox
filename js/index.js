@@ -83,6 +83,7 @@ $('.musiclist').onclick = function(e) {
     var strTitle = e.target.innerText.split('-')
     for (var j = 0; j < musiclist.length; j++) {
         if (strTitle[0] === musiclist[j].title) {
+            currentIndex = j
             loadMusic(musiclist[j])
         }
     }
