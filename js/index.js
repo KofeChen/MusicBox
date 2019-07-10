@@ -12,7 +12,7 @@ function $$(selector) {
 
 function getMusicList(callback) {
     var xhr = new XMLHttpRequest()
-    xhr.open('GET', 'https://kofechen.github.io/music-box/music.json', true)
+    xhr.open('GET', 'https://kofechen.github.io/MusicBox/music.json', true)
     xhr.onload = function() {
         if ((xhr.status >= 200 && xhr.status < 300) || xhr.status === 304) {
             callback(JSON.parse(xhr.responseText))
