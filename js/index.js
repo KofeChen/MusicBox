@@ -31,7 +31,7 @@ function loadMusic(musicObj) {
     audio.title = musicObj.title
     $('.music-box .info .title').innerText = musicObj.title
     $('.music-box .info .singer').innerText = musicObj.singer
-    $('.bgd').style.backgroundImage = 'url(' + musicObj.img + ')'
+    $('.bgd').style.backgroundImage = 'url(/img' + musicObj.img + ')'
 }
 
 function loadList(list) {
