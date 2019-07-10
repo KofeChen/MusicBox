@@ -1,0 +1,125 @@
+.bgd {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(bgd.jpg) center center no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.music-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 16px;
+    color: #f06d6a;
+    width: 350px;
+}
+
+.panel {
+    padding: 5px 10px;  
+    border: 1px solid rgb(118,219,163);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 5px 10px 0 rgba(0,0,0,0.05);
+    background-color: rgba(255,255,255,0.9);
+}
+
+.panel .control {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 22px;
+    color: #f06d6a;
+    float: left;
+}
+
+.panel .control .iconfont {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.panel .info {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.panel .info .title {
+    font-size: 18px;
+}
+
+.panel .info .singer {
+    font-size: 13px;
+}
+
+.progress {
+    width: 240px;
+    display: inline-block;
+}
+
+.progress .bar {
+    height: 3px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.progress .bar .progress-now {
+    width: 0;
+    height: 3px;
+    background-color: #f06d6a;
+}
+
+.progress .time {
+    text-align: right;
+}
+
+.setvolume {
+    display: inline-block;
+    width: 70px;
+}
+
+.setvolume .volume {
+    height: 3px;
+    margin-left: 6px;
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.setvolume .volume .vol {
+    width: 100%;
+    height: 3px;
+    background-color: #f06d6a;
+}
+
+.setvolume .percentage {
+    text-align: right;
+    font-size: 16px;
+}
+
+.music-box .musiclist>li {
+    position: relative;
+    padding: 4px 10px;
+    border: 1px solid rgba(255,255,255,0.8);
+    border-top: none;
+    overflow: hidden;
+    list-style: none;
+    cursor: pointer;
+}
+
+.music-box .musiclist>li:hover {
+    background-color: rgba(255,255,255,0.4)
+}
+
+.music-box .musiclist>li.playing::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8)
+}
